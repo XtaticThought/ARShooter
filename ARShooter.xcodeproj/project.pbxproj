@@ -16,6 +16,7 @@
 		FE85F4BF2B9A51E300011746 /* ARShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85F4BE2B9A51E300011746 /* ARShooterTests.swift */; };
 		FE85F4C92B9A51E300011746 /* ARShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85F4C82B9A51E300011746 /* ARShooterUITests.swift */; };
 		FE85F4CB2B9A51E300011746 /* ARShooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85F4CA2B9A51E300011746 /* ARShooterUITestsLaunchTests.swift */; };
+		FEEF6F0F2B9A5A43004CEDC4 /* Media.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FEEF6F0E2B9A5A43004CEDC4 /* Media.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE7424C02BC6CCF400B3991E /* Confetti.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Confetti.scnp; sourceTree = "<group>"; };
 		FE85F4A42B9A51E200011746 /* ARShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE85F4A72B9A51E200011746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE85F4A92B9A51E200011746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		FE85F4C42B9A51E300011746 /* ARShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARShooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE85F4C82B9A51E300011746 /* ARShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShooterUITests.swift; sourceTree = "<group>"; };
 		FE85F4CA2B9A51E300011746 /* ARShooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEEF6F0E2B9A5A43004CEDC4 /* Media.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Media.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				FE85F4A62B9A51E200011746 /* ARShooter */,
-				FE85F4BD2B9A51E300011746 /* ARShooterTests */,
 				FE85F4C72B9A51E300011746 /* ARShooterUITests */,
 				FE85F4A52B9A51E200011746 /* Products */,
 			);
@@ -106,6 +108,9 @@
 				FE85F4B02B9A51E300011746 /* Assets.xcassets */,
 				FE85F4B22B9A51E300011746 /* LaunchScreen.storyboard */,
 				FE85F4B52B9A51E300011746 /* Info.plist */,
+				FE7424C02BC6CCF400B3991E /* Confetti.scnp */,
+				FEEF6F0E2B9A5A43004CEDC4 /* Media.scnassets */,
+				FE85F4BD2B9A51E300011746 /* ARShooterTests */,
 			);
 			path = ARShooter;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 			files = (
 				FE85F4B12B9A51E300011746 /* Assets.xcassets in Resources */,
 				FE85F4B42B9A51E300011746 /* Base in Resources */,
+				FEEF6F0F2B9A5A43004CEDC4 /* Media.scnassets in Resources */,
 				FE85F4AF2B9A51E200011746 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
